@@ -1,27 +1,38 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SideNavComponent } from './nav/nav.component';
 
+//Angular Material
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
-import { MainComponent } from './main/main.component';
+import { MatListModule } from '@angular/material/list';
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { NgIf, NgFor } from '@angular/common';
+
+//Components
+import { FundationComponent } from './fundation/fundation.component';
 import { StructuresComponent } from './structures.container';
 
 
 @NgModule({
   declarations: [
     StructuresComponent,
-    SideNavComponent,
-    MainComponent
+    FundationComponent,
   ],
   imports: [
     CommonModule,
     MatSidenavModule,
-    MatButtonModule
+    MatButtonModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule,
+    MatSidenavModule,
+    MatListModule,
+    NgFor,
+    NgIf
   ],
   exports: [
-    SideNavComponent,
-    MainComponent
+    FundationComponent
   ]
 })
 export class StructuresModule { }
