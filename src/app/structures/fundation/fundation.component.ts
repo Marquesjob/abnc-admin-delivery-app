@@ -6,6 +6,7 @@ import { fundationContentSettings } from './fundation-content.settings';
   selector: 'app-fundation',
   templateUrl: './fundation.component.html',
 })
+
 export class FundationComponent implements OnInit {
 
   ngOnInit() { }

@@ -12,6 +12,8 @@ import { NgIf, NgFor } from '@angular/common';
 //Components
 import { FundationComponent } from './fundation/fundation.component';
 import { StructuresComponent } from './structures.container';
+import { ManagementModule } from '../management/management.module';
+
 
 
 @NgModule({
@@ -20,6 +22,7 @@ import { StructuresComponent } from './structures.container';
     FundationComponent,
   ],
   imports: [
+    ManagementModule,
     CommonModule,
     MatSidenavModule,
     MatButtonModule,

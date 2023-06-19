@@ -36,6 +36,7 @@ $abnc-admin-delivery-app-theme: mat.define-light-theme((
 /* You can add global styles to this file, and also import other style files */
 
 @import 'src/app/structures/assets/css/exports.scss';
+@import 'src/app/management/assets/css/exports.scss';
 
 html, body {
   height: 100%;
