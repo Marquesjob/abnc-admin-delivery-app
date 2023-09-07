@@ -5,7 +5,7 @@
   </mat-toolbar>
 
   <mat-sidenav-container class="example-sidenav-container" [style.marginTop.px]="mobileQuery.matches ? 56 : 0">
-
+      <!--//TODO - Tratar responsivo [SideNav]-->
     <mat-sidenav #snav [mode]="mobileQuery.matches ? 'over' : 'side'" [fixedInViewport]="mobileQuery.matches" fixedTopGap="56">
       <mat-nav-list >
         <a mat-list-item routerLink="menuContent.routerLink" *ngFor="let menuContent of menuContents;">{{ menuContent.name }}</a>
@@ -13,8 +13,9 @@
     </mat-sidenav>
 
     <mat-sidenav-content>
+      <!--//TODO - Tratar responsivo -->
 
-      <div class="fundation-container"> // Trabalhar no responsivo </div>
+      <div class="fundation-container"></div>
 
     </mat-sidenav-content>
 
