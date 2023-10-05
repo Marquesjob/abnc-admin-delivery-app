@@ -11,12 +11,15 @@ import { NgIf, NgFor } from '@angular/common';
 
 //Components
 import { FundationComponent } from './fundation/fundation.component';
-import { StructuresComponent } from './structures.container';
+import { StructuresContainer } from './structures.container';
+import { StructuresPresenter } from './store';
+import { StructuresService } from './services/structures.service';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
   declarations: [
-    StructuresComponent,
+    StructuresContainer,
     FundationComponent,
   ],
   imports: [
@@ -28,11 +31,16 @@ import { StructuresComponent } from './structures.container';
     MatIconModule,
     MatSidenavModule,
     MatListModule,
+    HttpClientModule,
     NgFor,
     NgIf
   ],
   exports: [
-    FundationComponent
+    StructuresContainer
+  ],
+  providers: [
+    StructuresPresenter,
+    StructuresService
   ]
 })
 export class StructuresModule { }

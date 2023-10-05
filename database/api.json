@@ -1,0 +1,66 @@
+{
+  "pedidos": [
+   [
+    {
+      "id": 1,
+      "prato": "Filé com fritas",
+      "porcao_extra": "Fritas",
+      "Bebida": "Coca-Cola"
+    },
+    {
+      "id": 2,
+      "prato": "Pizza Margherita",
+      "porcao_extra": "Salada",
+      "Bebida": "Água Mineral"
+    },
+    {
+      "id": 3,
+      "prato": "Salmão Grelhado",
+      "porcao_extra": "Legumes",
+      "Bebida": "Suco de Laranja"
+    },
+    {
+      "id": 4,
+      "prato": "Frango à Parmegiana",
+      "porcao_extra": "Arroz",
+      "Bebida": "Refrigerante de Limão"
+    },
+    {
+      "id": 5,
+      "prato": "Tacos de Carne",
+      "porcao_extra": "Guacamole",
+      "Bebida": "Margarita"
+    },
+    {
+      "id": 6,
+      "prato": "Macarrão Alfredo",
+      "porcao_extra": "Pão de Alho",
+      "Bebida": "Vinho Tinto"
+    },
+    {
+      "id": 7,
+      "prato": "Hambúrguer com Queijo",
+      "porcao_extra": "Batatas Fritas",
+      "Bebida": "Cerveja"
+    },
+    {
+      "id": 8,
+      "prato": "Sushi Variado",
+      "porcao_extra": "Molho de Soja",
+      "Bebida": "Chá Verde"
+    },
+    {
+      "id": 9,
+      "prato": "Lasanha de Frango",
+      "porcao_extra": "Salada Caesar",
+      "Bebida": "Sprite"
+    },
+    {
+      "id": 10,
+      "prato": "Risoto de Cogumelos",
+      "porcao_extra": "Brócolis",
+      "Bebida": "Água com Gás"
+    }
+  ]
+  ]
+}
