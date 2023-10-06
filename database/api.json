@@ -1,66 +1,140 @@
 {
   "pedidos": [
-   [
-    {
-      "id": 1,
-      "prato": "Filé com fritas",
-      "porcao_extra": "Fritas",
-      "Bebida": "Coca-Cola"
-    },
-    {
-      "id": 2,
-      "prato": "Pizza Margherita",
-      "porcao_extra": "Salada",
-      "Bebida": "Água Mineral"
-    },
-    {
-      "id": 3,
-      "prato": "Salmão Grelhado",
-      "porcao_extra": "Legumes",
-      "Bebida": "Suco de Laranja"
-    },
-    {
-      "id": 4,
-      "prato": "Frango à Parmegiana",
-      "porcao_extra": "Arroz",
-      "Bebida": "Refrigerante de Limão"
-    },
-    {
-      "id": 5,
-      "prato": "Tacos de Carne",
-      "porcao_extra": "Guacamole",
-      "Bebida": "Margarita"
-    },
-    {
-      "id": 6,
-      "prato": "Macarrão Alfredo",
-      "porcao_extra": "Pão de Alho",
-      "Bebida": "Vinho Tinto"
-    },
-    {
-      "id": 7,
-      "prato": "Hambúrguer com Queijo",
-      "porcao_extra": "Batatas Fritas",
-      "Bebida": "Cerveja"
-    },
-    {
-      "id": 8,
-      "prato": "Sushi Variado",
-      "porcao_extra": "Molho de Soja",
-      "Bebida": "Chá Verde"
-    },
-    {
-      "id": 9,
-      "prato": "Lasanha de Frango",
-      "porcao_extra": "Salada Caesar",
-      "Bebida": "Sprite"
-    },
-    {
-      "id": 10,
-      "prato": "Risoto de Cogumelos",
-      "porcao_extra": "Brócolis",
-      "Bebida": "Água com Gás"
-    }
-  ]
+    [
+      {
+        "id": 1,
+        "prato": "Filé com fritas",
+        "porcao_extra": "Fritas",
+        "Bebida": "Coca-Cola"
+      },
+      {
+        "id": 2,
+        "prato": "Pizza Margherita",
+        "porcao_extra": "Salada",
+        "Bebida": "Água Mineral"
+      },
+      {
+        "id": 3,
+        "prato": "Salmão Grelhado",
+        "porcao_extra": "Legumes",
+        "Bebida": "Suco de Laranja"
+      },
+      {
+        "id": 4,
+        "prato": "Frango à Parmegiana",
+        "porcao_extra": "Arroz",
+        "Bebida": "Refrigerante de Limão"
+      },
+      {
+        "id": 5,
+        "prato": "Tacos de Carne",
+        "porcao_extra": "Guacamole",
+        "Bebida": "Margarita"
+      },
+      {
+        "id": 6,
+        "prato": "Macarrão Alfredo",
+        "porcao_extra": "Pão de Alho",
+        "Bebida": "Vinho Tinto"
+      },
+      {
+        "id": 7,
+        "prato": "Hambúrguer com Queijo",
+        "porcao_extra": "Batatas Fritas",
+        "Bebida": "Cerveja"
+      },
+      {
+        "id": 8,
+        "prato": "Sushi Variado",
+        "porcao_extra": "Molho de Soja",
+        "Bebida": "Chá Verde"
+      },
+      {
+        "id": 9,
+        "prato": "Lasanha de Frango",
+        "porcao_extra": "Salada Caesar",
+        "Bebida": "Sprite"
+      },
+      {
+        "id": 10,
+        "prato": "Risoto de Cogumelos",
+        "porcao_extra": "Brócolis",
+        "Bebida": "Água com Gás"
+      }
+    ]
+  ],
+  "clients": [
+    [
+      {
+        "nome": "João da Silva",
+        "endereco": "Rua das Flores, 123",
+        "telefone": "(11) 1234-5678",
+        "email": "joao@example.com",
+        "dataNascimento": "1990-05-15"
+      },
+      {
+        "nome": "Maria Oliveira",
+        "endereco": "Avenida Principal, 456",
+        "telefone": "(21) 9876-5432",
+        "email": "maria@example.com",
+        "dataNascimento": "1985-08-20"
+      },
+      {
+        "nome": "Pedro Santos",
+        "endereco": "Rua do Comércio, 789",
+        "telefone": "(31) 5555-5555",
+        "email": "pedro@example.com",
+        "dataNascimento": "1992-03-10"
+      },
+      {
+        "nome": "Ana Pereira",
+        "endereco": "Travessa da Paz, 321",
+        "telefone": "(41) 3333-3333",
+        "email": "ana@example.com",
+        "dataNascimento": "1988-11-28"
+      },
+      {
+        "nome": "Luiz Fernandes",
+        "endereco": "Praça da Liberdade, 654",
+        "telefone": "(51) 9999-9999",
+        "email": "luiz@example.com",
+        "dataNascimento": "1975-07-03"
+      },
+      {
+        "nome": "Carla Rodrigues",
+        "endereco": "Avenida Central, 987",
+        "telefone": "(61) 7777-7777",
+        "email": "carla@example.com",
+        "dataNascimento": "1980-02-14"
+      },
+      {
+        "nome": "Rafaela Lima",
+        "endereco": "Rua do Sol, 234",
+        "telefone": "(71) 8888-8888",
+        "email": "rafaela@example.com",
+        "dataNascimento": "1995-09-09"
+      },
+      {
+        "nome": "Fernando Costa",
+        "endereco": "Alameda dos Pinheiros, 555",
+        "telefone": "(81) 6666-6666",
+        "email": "fernando@example.com",
+        "dataNascimento": "1983-04-22"
+      },
+      {
+        "nome": "Mariana Vieira",
+        "endereco": "Avenida do Mar, 432",
+        "telefone": "(91) 2222-2222",
+        "email": "mariana@example.com",
+        "dataNascimento": "1998-01-18"
+      },
+      {
+        "nome": "Lucas Oliveira",
+        "endereco": "Praia dos Coqueiros, 789",
+        "telefone": "(32) 4444-4444",
+        "email": "lucas@example.com",
+        "dataNascimento": "1991-06-07"
+      }
+    ]
   ]
 }
